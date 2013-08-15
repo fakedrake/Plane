@@ -1,0 +1,3 @@
+* Plane
+  Relate abstract data togetherin a fuzzy way.
+
