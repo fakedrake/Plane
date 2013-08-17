@@ -1,3 +1,10 @@
 * Plane
-  Relate abstract data togetherin a fuzzy way.
+  Relate abstract data together in a fuzzy way.
+** Usage
+   There are two main concepts in play:
 
+   - Plane :: The data provider. A plane may be an endless stream of
+              data, generated, stored, downloaded etc.
+   - Flow :: This flows from object to object within the plane in an
+             intelligent way highlinghting and prioritizing the
+             interesting ones.
