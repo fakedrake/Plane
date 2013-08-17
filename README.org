@@ -1,5 +1,6 @@
 * Plane
   Relate abstract data together in a fuzzy way.
+
 ** Usage
    There are two main concepts in play:
 
@@ -8,3 +9,27 @@
    - Flow :: This flows from object to object within the plane in an
              intelligent way highlinghting and prioritizing the
              interesting ones.
+
+
+** Roadmap
+   Some goals I have for the project. Ideas are welcome too.
+
+*** Negative flow
+    We may want flow to retract from nodes. This is theoretically
+    possible with the current configuration. I need to test it though
+    and make sure it converges.
+
+*** Convergence Control
+    For now I can only control the number of iterations per node
+    children and the depth of the search. I need a better way to
+    control how far the flow is allowed to go.
+
+*** Lexical Backend
+    An obvious way this can be used is for relating words with one
+    another. Multiple types of planes and flows are possible for this.
+
+*** Reddit Backend
+    I believe this framework can be used to make a self sustained
+    reddit front page that is abstract of subreddits. I would do this
+    more as proof of concept I do not expect myself to actully
+    maintain such a project.
